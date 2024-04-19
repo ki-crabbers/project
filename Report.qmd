@@ -1,0 +1,31 @@
+```         
+---
+title: "Analysis of NEON Woody plant vegetation structure data"
+subtitle: "ACCE DTP course"
+author: "Anna Krystalli"
+date: "2024-03-19"
+format:
+  html:
+    toc: true
+    theme: minty
+    highlight-style: dracula
+editor: visual
+---
+
+## Background
+
+![](data-raw/wood-survey-data-master/neon-logo.png){width="200"}
+
+The [NEON Woody plant vegetation structure dataset](https://data.neonscience.org/data-products/DP1.10098.001) contains **structure measurements, including height, canopy diameter, and stem diameter, as well as mapped position of individual woody plants across the survey area.**
+
+This data product contains the quality-controlled, native sampling resolution data from in-situ measurements of live and standing dead woody individuals and shrub groups, from all terrestrial NEON sites with qualifying woody vegetation. With some modifications, this protocol adopts guidelines established by the U.S. Forest Service (2012) for measuring tree species. The exact measurements collected per individual depend on growth form, and these measurements are focused on enabling biomass and productivity estimation, estimation of shrub volume and biomass, and calibration / validation of multiple NEON airborne remote-sensing data products.
+
+Our analyses focus on the **relationship between individual stem height and diameter** and how that relationship **varies across growth forms**.
+
+### Data Preparation
+
+Data was prepared for analysis by:  
+
+- Compiling all individual raw data files into a single table. 
+- Merging individual data with plot level data and geolocating individuals. 
+```
